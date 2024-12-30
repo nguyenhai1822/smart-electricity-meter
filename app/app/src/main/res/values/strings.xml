@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">demo</string>
+    <string name="gt_dien_nang">
+        Quản lý điện năng thông minh là giải pháp tối ưu hóa việc sử dụng điện năng trong các thiết bị và hệ thống.\n
+        Bằng cách giám sát và điều chỉnh mức tiêu thụ điện, chúng ta có thể tiết kiệm năng lượng, giảm chi phí và bảo vệ môi trường.\n
+        Các hệ thống quản lý điện năng thông minh sử dụng công nghệ tiên tiến để theo dõi mức tiêu thụ theo thời gian thực và điều chỉnh hiệu quả,từ đó giúp người dùng kiểm soát được chi phí điện, kéo dài tuổi thọ thiết bị, và giảm thiểu tác động lên hệ thống điện lưới.\n
+        Ứng dụng quản lý điện năng thông minh có thể tự động điều chỉnh chế độ hoạt động của các thiết bị dựa trên nhu cầu sử dụng thực tế,góp phần xây dựng một hệ sinh thái bền vững, thông minh và thân thiện với môi trường.\n
+    </string>
+    <string name="lic_tinh_tien_dien">
+        <b>Kiểm soát chi phí:</b> Biết cách tính tiền điện giúp bạn dễ dàng ước tính và dự đoán chi phí hàng tháng. Điều này giúp bạn lập kế hoạch tài chính hiệu quả hơn.\n
+        <b>Tiết kiệm tiền:</b> Hiểu rõ cách hoạt động của tiền điện giúp bạn nhận biết và giảm thiểu sự lãng phí. Bằng cách tiết kiệm điện thông minh, bạn sẽ giảm được chi phí điện đáng kể.\n
+        <b>Hiểu rõ hóa đơn:</b> Khi bạn biết cách tính tiền điện, bạn có khả năng kiểm tra hóa đơn một cách chi tiết để đảm bảo rằng mọi thông tin đều chính xác. Điều này giúp tránh việc bị tính sai hoặc lãng phí tiền vào những khoản không cần thiết.\n
+        <b>Quản lý tài chính tốt hơn:</b> Biết cách tính tiền điện giúp bạn quản lý tiêu dùng năng lượng của mình. Bạn có thể xem xét việc sử dụng các thiết bị tiết kiệm điện, cách điều chỉnh nhiệt độ trong nhà, hoặc thực hiện các biện pháp tiết kiệm năng lượng khác.\n
+    </string>
+
+    <string name="st_gdtt_cong_thuc">
+        A = P x t\nTrong đó:\n
+        A là Điện năng đã tiêu thụ (kWh)\n
+        P là Công suất tiêu thụ (kW)\n
+        t là Thời gian sử dụng (h)
+    </string>
+    <string name="st_gdtt_vi_du">
+        Bạn có một tủ lạnh có công suất là 0.15 kW, và tủ lạnh hoạt động suốt 24 giờ mỗi ngày.\n
+        Số điện năng tiêu thụ hàng ngày =\n 0.15 kW x 24 h = 3.6 kWh\n
+        Số điện năng tiêu thụ trong một tháng (30 ngày) =\n 3.6 kWh x 30 ngày = 108 kWh
+    </string>
+    <string name="st_gdtt_vi_du_tong">
+        Gia đình bạn sử dụng hết 180 số điện:\n\nTiền điện bậc 1 (50 số): 50 x 1.806 = 90.300 đồng\n
+        Tiền điện bậc 2 (50 số): 50 x 1.866 = 93.300 đồng\nTiền điện bậc 3 (80 số): 80 x 2.167 = 173.360 đồng\n\n
+        Tổng tiền điện (chưa VAT): 356.960 đồng\nTổng tiền điện (có VAT): 356.960 x 108% = 386.572 đồng
+    </string>
+    <string name="st_help">
+        Bạn đang gặp khó khăn hay có thắc mắc trong quá trình sử dụng ứng dụng?
+        Đừng lo lắng, chúng tôi luôn sẵn sàng hỗ trợ bạn!
+        Hãy liên hệ với chúng tôi qua các kênh sau:
+    </string>
+    <string name="st_help_cuoi">
+        Chúng tôi cam kết mang đến trải nghiệm tốt nhất và luôn đồng hành cùng bạn trong mọi vấn đề!
+    </string>
+    <string-array name="chart_filter_options">
+        <item>Theo giờ</item>
+        <item>Theo ngày</item>
+        <item>Theo tháng</item>
+    </string-array>
+    <string name="voltage_icon">Biểu tượng điện áp</string>
+    <string name="current_icon">Biểu tượng dòng điện</string>
+    <string name="power_icon">Biểu tượng công suất</string>
+    <string name="energy_icon">Biểu tượng điện năng</string>
+</resources>

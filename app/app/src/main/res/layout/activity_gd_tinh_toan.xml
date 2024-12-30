@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Công thức tính số điện tiêu thụ"
+                android:textColor="#FF4081"
+                android:fontFamily="@font/aclonica"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="16dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Công thức tính số điện dựa theo công suất:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#FF4081"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/st_gdtt_cong_thuc"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ví dụ:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#FF4081"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/st_gdtt_vi_du"
+                android:layout_marginBottom="16dp"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giá điện theo bậc thang:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#FF4081"
+                android:layout_marginBottom="8dp"/>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1,2,3">
+
+                <TableRow>
+                    <TextView android:text=" " android:gravity="center" />
+                    <TextView android:text="ĐƠN GIÁ (đồng/kWh)" android:gravity="center" />
+                    <TextView android:text="SẢN LƯỢNG (kWh)" android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="Bậc thang 1" android:gravity="center" />
+                    <TextView android:text="1893" android:gravity="center" />
+                    <TextView android:text="50" android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="Bậc thang 2" android:gravity="center" />
+                    <TextView android:text="1956" android:gravity="center" />
+                    <TextView android:text="50" android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="Bậc thang 3" android:gravity="center" />
+                    <TextView android:text="2271" android:gravity="center" />
+                    <TextView android:text="100" android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="Bậc thang 4" android:gravity="center" />
+                    <TextView android:text="2860" android:gravity="center" />
+                    <TextView android:text="100" android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="Bậc thang 5" android:gravity="center" />
+                    <TextView android:text="3197" android:gravity="center" />
+                    <TextView android:text="100" android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="Bậc thang 6" android:gravity="center" />
+                    <TextView android:text="3302" android:gravity="center" />
+                    <TextView android:text="0" android:gravity="center" />
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ví dụ tính tiền điện:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#FF4081"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/st_gdtt_vi_du_tong"
+                android:layout_marginBottom="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

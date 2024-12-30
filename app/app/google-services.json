@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1021591117989",
+    "firebase_url": "https://congtodien-dd8dc-default-rtdb.firebaseio.com",
+    "project_id": "congtodien-dd8dc",
+    "storage_bucket": "congtodien-dd8dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021591117989:android:f6eeb5575a3fa4c4062d4c",
+        "android_client_info": {
+          "package_name": "com.example.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZf0pv8Ce8shUuSjEHJu3fYlsF-A2Rd5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

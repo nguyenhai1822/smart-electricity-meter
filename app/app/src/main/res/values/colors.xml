@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#4AE64D</color>
+    <color name="purple_500">#74FF76</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#3F51B5</color>
+    <!-- Màu nền -->
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_dark">#212121</color>
+
+    <!-- Màu chính và phụ -->
+    <color name="primary_color">#2196F3</color>
+    <color name="primary_dark_color">#1976D2</color>
+    <color name="accent_color">#FF9800</color>
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Màu viền và bóng -->
+    <color name="card_shadow">#DDDDDD</color>
+    <color name="divider_color">#E0E0E0</color>
+
+    <!-- Màu cho biểu đồ -->
+    <color name="chart_line_color">#4CAF50</color>
+    <color name="chart_grid_color">#BDBDBD</color>
+    <color name="gauge_arc_complete">#FF5722</color> <!-- Vòng cung đã đi qua -->
+    <color name="gauge_arc_remaining">#B3E5FC</color> <!-- Vòng cung còn lại -->
+    <color name="gauge_needle">#F44336</color> <!-- Kim -->
+    <color name="gauge_text_primary">#212121</color> <!-- Văn bản chính -->
+    <color name="gauge_text_secondary">#757575</color> <!-- Văn bản phụ -->
+    <!-- Màu sắc cho từng thông số -->
+    <color name="voltage_color">#2196F3</color>
+    <color name="current_color">#F44336</color>
+    <color name="power_color">#FF9800</color>
+    <color name="energy_color">#4CAF50</color>
+    <color name="colorAccent">#F44336</color>
+
+</resources>

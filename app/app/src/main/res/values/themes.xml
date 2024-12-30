@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Demo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#3F51B5</item> <!-- Đặt lại màu primary cho ứng dụng -->
+        <item name="colorPrimaryDark">#0D47A1</item> <!-- Màu đậm hơn cho action bar nếu có -->
+        <item name="colorAccent">#1A237E</item> <!-- Đặt lại màu accent -->
+
+    </style>
+
+    <style name="Theme.Demo" parent="Base.Theme.Demo" />
+</resources>
